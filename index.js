@@ -20,3 +20,24 @@ function sum(a, b) {
   return a + b;
 }
 console.log(sum(3, 7)); // Должно вывести 10
+
+// 5. Функция для проверки палиндрома
+function isPalindrome(word) {
+    const reversedWord = word.split("").reverse().join("");
+    return word === reversedWord;
+  }
+  
+  console.log(isPalindrome("топот")); // true
+  console.log(isPalindrome("привет")); // false
+
+  // 6. Функция для проверки простого числа
+function isPrime(number) {
+    if (number <= 1) return false;
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) return false;
+    }
+    return true;
+  }
+  
+  console.log(isPrime(7)); // true
+  console.log(isPrime(10)); // false
