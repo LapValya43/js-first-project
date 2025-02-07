@@ -17,3 +17,7 @@
 2. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/LapValya43/js-first-project.git
+
+## Выполненные задания на практику.
+- https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+- https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
